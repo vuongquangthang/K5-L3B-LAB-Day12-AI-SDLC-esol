@@ -3,4 +3,7 @@ __pycache__/
 *.jsonl
 !tests/fixtures/*.jsonl
 !docs/proof/**/*.jsonl
+kho.json
+*.tmp
 .DS_Store
+kho.json

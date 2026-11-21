@@ -27,6 +27,13 @@ Game cần chế độ **headless** theo Test Contract (`python3 -m chonoi.headl
 
 Ngoài phần đề yêu cầu, nhóm được **thêm** nhân vật, loài cá/cây, sinh vật, món, bản đồ, cơ chế, câu chuyện, đồ họa, âm nhạc… với ba điều kiện: **không phá phần cố định** (tắt ở headless), ghi mục **"Sáng tạo của nhóm"** trong README của nhóm, và **làm lõi đúng trước**.
 
+### Sáng tạo của nhóm (esol)
+- **Giao diện sông nước miền Tây sống động ([chonoi/web/index.html](chonoi/web/index.html)):**
+  - **Buổi sáng (`gather`):** Hiệu ứng bình minh sông nước, sóng gợn lăn tăn, tia nắng xuyên nước (`light shafts`), bong bóng nước chuyển động, cầu tàu bến đò gỗ mộc kèm đèn lồng, nhân vật Út Sen đội nón lá bơi lội, bông súng hồng bung nở trên lá xanh và đàn cá quẫy đuôi linh hoạt.
+  - **Buổi tối (`quan`):** Bè nổi ẩm thực đêm với sàn gỗ ấm áp, bếp lò đất nung bập bùng ánh lửa than hồng, bàn ăn tròn mây đan, khách hàng có biểu cảm trạng thái và thanh kiên nhẫn chuyển màu động.
+  - **Hệ thống âm thanh Synthesizer (Web Audio API):** Âm thanh tự tạo 100% bằng code (tiếng quẫy nước bắt cá, hái hoa, nấu ăn xèo xèo và tiếng leng keng tính tiền) kèm nút bật/tắt âm thanh tiện lợi.
+  - **HUD Glassmorphism:** Hiển thị oxy, tim máu, giỏ khoang, doanh thu và xếp hạng sao uy tín trực quan, sang trọng.
+
 ## Lịch 3 giờ
 
 | Mốc | Phase | Hạn tag |
