@@ -1,7 +1,7 @@
 {
   "contract_version": "1.0",
-  "team": "ten-nhom",
-  "team_size": 4,
+  "team": "esol",
+  "team_size": 1,
   "build_cmd": "true",
   "run_cmd": "python3 -m chonoi.live --mode gather",
   "headless_cmd": "python3 -m chonoi.headless",
